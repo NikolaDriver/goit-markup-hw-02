@@ -1,0 +1,67 @@
+:root {
+    --hero-title-color: #ffffff;
+    --second-title-color: #212121;
+    --third-title-color: #212121;
+    --main-text-color: #757575;
+    --second-btn-color: #F5F4FA;
+    --header-text-color: #212121;
+    --hover-color: #2196F3;
+}
+body {
+    font-family:"Roboto";
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/*----------------HEADER-------------*/
+.logo-web {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+.logo-studio {
+    color: #212121;
+}
+}
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color:var(--header-text-color);
+}
+.header-link:hover {
+    color:var(--hover-color);
+}
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color:var(--header-text-color);
+    }
+/*----------------HERO-------------*/
+.hero {
+    background-color:#2F303A; ;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color:var(--hero-title-color);
+}
+.hero-button {
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color:#FFFFFF;
+}
