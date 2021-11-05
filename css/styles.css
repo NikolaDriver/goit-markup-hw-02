@@ -65,4 +65,52 @@ body {
     letter-spacing: 0.06em;
     color:#FFFFFF;
 }
-/*------------priorities-------------*/
+
+.priorities-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
+}
+
+.priorities-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--main-text-color)
+}
+/*-------------specification------------*/
+
+.specification-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
+}
+/*-------------TEAM------------*/
+ .team-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color:var(--second-title-color);
+ }
+ .team-list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--third-title-color)
+    }
+
+.team-list-profession{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+
+}
