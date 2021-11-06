@@ -8,7 +8,8 @@
     --hover-color: #2196F3;
 }
 body {
-    font-family:"Roboto";
+    font-family:"Roboto", sans-serif;
+    color: #E5E5E5;
 }
 .list {
     list-style: none;
@@ -40,8 +41,9 @@ body {
     letter-spacing: 0.02em;
     color:var(--header-text-color);
 }
-.header-link:hover {
-    color:var(--hover-color);
+.header-link:hover,
+.header-link:focus {
+    color: var(--hover-color);
 }
 
 .mail,
@@ -64,6 +66,7 @@ body {
     color:var(--hero-title-color);
 }
 .hero-button {
+    font-family: inherit;
     background-color: #2196F3;
     font-weight: 700;
     font-size: 16px;
@@ -124,6 +127,7 @@ body {
 .section-footer {
     background-color: #2F303A;;
 }
+
 .logo-studio-footer{
     font-family: Raleway;
     font-style: normal;
@@ -140,4 +144,35 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+/*-------------PORTFOLIO PG------------*/
+
+.pf-buttons {
+    font-family: inherit; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.pf-buttons:hover {
+    color:var(--hover-color)
+}
+.pf-buttons:focus {
+    color: var(--hover-color);
+}
+.portfolio-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--third-title-color);
+}
+.portfolio-list-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color:var(--main-text-color);
 }
