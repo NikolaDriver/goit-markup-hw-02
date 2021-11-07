@@ -11,6 +11,9 @@ body {
     font-family:"Roboto", sans-serif;
     color: #E5E5E5;
 }
+address {
+    font-style: normal
+}
 .list {
     list-style: none;
 }
@@ -123,7 +126,6 @@ body {
     color: var(--main-text-color);
 }
 /*-------------footer------------*/
-
 .section-footer {
     background-color: #2F303A;;
 }
@@ -136,14 +138,16 @@ body {
     line-height: 1.19;
     color: #fff;
 }
-.footer-address {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
+
+.foter-contacts {
+    font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color:var(--main-text-color);
+}
+.foter-contacts :hover {
+    color: var(--hover-color);
 }
 /*-------------PORTFOLIO PG------------*/
 
